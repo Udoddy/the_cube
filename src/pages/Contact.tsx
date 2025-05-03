@@ -65,7 +65,7 @@ const Contact: React.FC = () => {
             >
                 <div className="absolute inset-0 z-0">
                     <img
-                        src="https://images.pexels.com/photos/696218/pexels-photo-696218.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+                        src="/images/interior/IMG_9499.PNG"
                         alt="Contact header"
                         className="w-full h-full object-cover opacity-30"
                     />
