@@ -73,9 +73,9 @@ const Gallery: React.FC = () => {
       <section className="relative py-20 bg-gray-900 text-white">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.pexels.com/photos/6061561/pexels-photo-6061561.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt="Gallery header"
-            className="w-full h-full object-cover opacity-30"
+              src="/images/interior/IMG_9499.PNG"
+              alt="Gallery header"
+              className="w-full h-full object-cover opacity-30"
           />
         </div>
         <div className="container mx-auto px-4 relative z-10">
