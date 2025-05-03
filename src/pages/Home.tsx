@@ -111,7 +111,7 @@ const Home: React.FC = () => {
 
             {/* Delivery CTA */}
             <section className="py-12 bg-white">
-                <div className="container mx-auto px-4">
+                <div className="container mx-auto px-4 flex hidden md:flex">
                     <DeliveryCTA />
                 </div>
             </section>

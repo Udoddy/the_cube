@@ -273,13 +273,29 @@ const EventsPage: React.FC = () => {
             <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
               <div className="md:flex">
                 <div className="md:w-1/3 bg-primary-500 text-white p-6 flex flex-col justify-center items-center">
+                  <p className="text-2xl font-bold">June 5</p>
+                  <p className="text-sm uppercase">Thursday, 7:00 PM</p>
+                </div>
+                <div className="md:w-2/3 p-6">
+                  <h3 className="text-xl font-medium mb-2">Eid al-Hajj Celebration</h3>
+                  <p className="text-gray-600 mb-4">
+                    Celebrate Eid al-Hajj with a festive dinner featuring a special Tanzanian-inspired menu, live cultural performances, and a warm family-friendly atmosphere.
+                  </p>
+                  <p className="text-primary-600 font-medium">Cover Charge: TSh 20,000 per person</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
+              <div className="md:flex">
+                <div className="md:w-1/3 bg-secondary-300 text-white p-6 flex flex-col justify-center items-center">
                   <p className="text-2xl font-bold">June 15</p>
                   <p className="text-sm uppercase">Friday, 7:00 PM</p>
                 </div>
                 <div className="md:w-2/3 p-6">
-                  <h3 className="text-xl font-medium mb-2">Wine Tasting Night</h3>
+                  <h3 className="text-xl font-medium mb-2">Paint and Connect</h3>
                   <p className="text-gray-600 mb-4">
-                    Join us for an evening of fine wine tasting featuring selections from South Africa and Tanzania, 
+                    Join us for an evening of painting featuring Hosted by the best in Town,
                     paired with artisanal cheeses and appetizers.
                   </p>
                   <p className="text-primary-600 font-medium">Tickets: TSh 45,000 per person</p>
@@ -287,26 +303,9 @@ const EventsPage: React.FC = () => {
               </div>
             </div>
 
-            <div className="bg-white rounded-lg shadow-md overflow-hidden mb-8">
-              <div className="md:flex">
-                <div className="md:w-1/3 bg-secondary-500 text-white p-6 flex flex-col justify-center items-center">
-                  <p className="text-2xl font-bold">June 22</p>
-                  <p className="text-sm uppercase">Friday, 8:00 PM</p>
-                </div>
-                <div className="md:w-2/3 p-6">
-                  <h3 className="text-xl font-medium mb-2">Live Jazz Music</h3>
-                  <p className="text-gray-600 mb-4">
-                    Enjoy an evening of smooth jazz performed by local musicians, complemented by our special dinner menu 
-                    and craft cocktails.
-                  </p>
-                  <p className="text-primary-600 font-medium">Cover Charge: TSh 15,000 per person</p>
-                </div>
-              </div>
-            </div>
-
             <div className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="md:flex">
-                <div className="md:w-1/3 bg-accent-500 text-white p-6 flex flex-col justify-center items-center">
+                <div className="md:w-1/3 bg-secondary-300 text-white p-6 flex flex-col justify-center items-center">
                   <p className="text-2xl font-bold">July 10</p>
                   <p className="text-sm uppercase">Saturday, 6:30 PM</p>
                 </div>
