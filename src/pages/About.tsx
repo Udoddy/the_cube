@@ -76,7 +76,7 @@ const About: React.FC = () => {
               </h2>
               <p className="text-gray-700 mb-6">
                 The Cube Restaurant & Café was born from a passion for bringing exceptional dining experiences to Dar es Salaam. 
-                Established in 2015, our restaurant has grown from a small café to one of the city's most beloved dining destinations.
+                Established in 2023, our restaurant has grown from a small café to one of the city's most beloved dining destinations.
               </p>
               <p className="text-gray-700 mb-6">
                 Our founder, Chef Michael Karama, trained in Europe before returning to Tanzania with a vision to blend international 
@@ -101,7 +101,7 @@ const About: React.FC = () => {
               />
               <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-lg hidden md:block">
                 <p className="font-medium text-gray-800">Established</p>
-                <p className="text-2xl font-bold text-primary-600">2015</p>
+                <p className="text-2xl font-bold text-primary-600">2023</p>
               </div>
             </motion.div>
           </div>

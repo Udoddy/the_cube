@@ -132,8 +132,7 @@ const FeaturedDishes: React.FC = () => {
 
         <div className="text-center mt-12">
           <a 
-            href="https://menu.the-cuberestaurant.com/" 
-            target="_blank" 
+            href="/menu"
             rel="noopener noreferrer"
             className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-3 px-8 rounded-md transition-all hover:shadow-lg transform hover:-translate-y-1 inline-block"
           >

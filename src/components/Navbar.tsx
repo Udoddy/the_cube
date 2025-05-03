@@ -54,21 +54,7 @@ function Navbar() {
                 className="block px-3 py-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-50"
                 onClick={() => setIsOpen(false)}
               >
-                Menu
-              </Link>
-              <Link 
-                to="/about" 
-                className="block px-3 py-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-50"
-                onClick={() => setIsOpen(false)}
-              >
-                About
-              </Link>
-              <Link 
-                to="/events" 
-                className="block px-3 py-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-50"
-                onClick={() => setIsOpen(false)}
-              >
-                Events
+                Our Menu
               </Link>
               <Link 
                 to="/gallery" 

@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white transition-colors"
                 >
-                  Menu
+                 Our Menu
                 </a>
               </li>
               <li>
