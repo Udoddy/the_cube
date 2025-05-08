@@ -220,14 +220,14 @@ const Menu: React.FC = () => {
       : menuSections.filter(section => section.id === activeCategory);
 
   return (
-      <>
+      <main className="pt-16">
         {/* Header Section */}
         <section className="py-8 bg-gray-900 text-white">
           <div className="container mx-auto px-4">
             <div className="text-center">
               <h1 className="text-3xl md:text-4xl font-playfair font-bold mb-2">Our Menu</h1>
               <p className="text-lg font-playfair italic mb-4 text-primary-400">
-                Think? We Eat Outside The Box!
+                <s>Think</s>? We Eat Outside The Box!
               </p>
               <button
                   onClick={toggleReservationPanel}
@@ -240,7 +240,7 @@ const Menu: React.FC = () => {
         </section>
 
         {/* Scrollable Menu Categories */}
-        <section className="py-4 bg-white sticky top-0 z-30 shadow-md">
+        <section className="py-4 bg-white sticky top-16 z-40 shadow-md">
           <div className="container mx-auto px-4">
             <div className="flex overflow-x-auto space-x-4 scroll-smooth hide-scrollbar">
               <button
@@ -376,7 +376,7 @@ const Menu: React.FC = () => {
           }
         `}
         </style>
-      </>
+      </main>
   );
 };
 

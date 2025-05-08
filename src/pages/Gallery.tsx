@@ -70,7 +70,7 @@ const Gallery: React.FC = () => {
   return (
     <>
       {/* Header Section */}
-      <section className="relative py-20 bg-gray-900 text-white">
+      <section className="relative py-20 bg-gray-900 top-16 z-40 text-white">
         <div className="absolute inset-0 z-0">
           <img
               src="/images/interior/IMG_9499.PNG"

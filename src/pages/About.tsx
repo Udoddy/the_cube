@@ -33,7 +33,7 @@ const About: React.FC = () => {
       {/* Header Section */}
       <section 
         ref={headerRef}
-        className="relative py-20 bg-gray-900 text-white"
+        className="relative py-20 bg-gray-900 top-16 z-40 text-white"
       >
         <div className="absolute inset-0 z-0">
           <img 
