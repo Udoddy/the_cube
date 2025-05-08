@@ -5,8 +5,7 @@ import { Star, Clock, MapPin, Phone } from 'lucide-react';
 import { useReservation } from '../context/ReservationContext';
 import Testimonials from '../components/Testimonials';
 import FeaturedDishes from '../components/FeaturedDishes';
-import DeliveryCTA from '../components/DeliveryCTA-';
-
+import DeliveryCTA from '../components/DeliveryCTA';
 
 const Home: React.FC = () => {
     const { toggleReservationPanel } = useReservation();
@@ -33,7 +32,7 @@ const Home: React.FC = () => {
             {/* Hero Section */}
             <section
                 ref={heroRef}
-                className="relative min-h-[90vh] max-h-[90vh] flex items-center justify-center overflow-hidden"
+                className="relative h-[calc(100vh-4rem)] w-full flex items-center justify-center overflow-hidden top-16"
             >
                 <div className="absolute inset-0 z-0">
                     <img
@@ -49,7 +48,7 @@ const Home: React.FC = () => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={heroInView ? { opacity: 1, y: 0 } : {}}
                         transition={{ duration: 0.8, delay: 0.2 }}
-                        className="pb-16 sm:pb-20"
+                        className="pb-24 sm:pb-28"
                     >
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-white mb-6">
                             Savor the Taste of <span className="text-primary-400">Dar es Salaam</span>
@@ -188,12 +187,12 @@ const Home: React.FC = () => {
                             </div>
 
                             <div className="flex justify-center">
-                            <button
-                                onClick={toggleReservationPanel}
-                                className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-3 px-8 rounded-md transition-all hover:shadow-lg transform hover:-translate-y-1"
-                            >
-                                Book a Table
-                            </button>
+                                <button
+                                    onClick={toggleReservationPanel}
+                                    className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-3 px-8 rounded-md transition-all hover:shadow-lg transform hover:-translate-y-1"
+                                >
+                                    Book a Table
+                                </button>
                             </div>
                         </motion.div>
                     </div>

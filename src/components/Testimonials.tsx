@@ -26,6 +26,14 @@ const testimonials: Testimonial[] = [
   },
   {
     id: 2,
+    name: 'Udoddy',
+    role: 'Food Lover',
+    rating: 4,
+    comment: 'The Cube ndo penyewe bwana! Msosi wa kushiba na Mtamu😋',
+    image: 'https://images.pexels.com/photos/6975060/pexels-photo-6975060.jpeg?auto=compress&cs=tinysrgb&w=400'
+  },
+  {
+    id: 3,
     name: 'David Chen',
     role: 'Business Traveler',
     rating: 5,
@@ -33,7 +41,7 @@ const testimonials: Testimonial[] = [
     image: 'https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=400'
   },
   {
-    id: 3,
+    id: 4,
     name: 'Sarah Mbeki',
     role: 'Food Blogger',
     rating: 4,
@@ -41,7 +49,7 @@ const testimonials: Testimonial[] = [
     image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400'
   },
   {
-    id: 4,
+    id: 5,
     name: 'Michael Wong',
     role: 'Tourist',
     rating: 5,
